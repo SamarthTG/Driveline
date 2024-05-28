@@ -1,0 +1,38 @@
+/* Ensure the body takes the full height of the viewport and has a black background */
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap");
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+/* Center the content both horizontally and vertically */
+.container {
+    text-align: center;
+    max-width: 1000px; /* Limit the width of the container for better readability */
+    margin: auto; /* Center the container */
+    padding: 40px 20px 0;
+}
+
+/* Style the image to be centered */
+.centered-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the paragraph below the image */
+.justified-paragraph {
+    margin-top: 40px;
+    font-size: 22px;
+    color: white;
+    text-align: justify; /* Justify the text within the paragraph */
+    padding: 0 -1000px; /* Add padding to the left and right of the paragraph */
+}
